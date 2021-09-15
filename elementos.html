@@ -6,7 +6,42 @@
         <title>Elementos HTML</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1/PNG/256/social_html5_html_71.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/estilos.css">
+        <!--<link rel="stylesheet" href="css/estilos.css">-->
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                border: 2px solid blue;
+            }
+            main{
+                border: 2px solid black;
+                width: 80%;
+                margin: 32px auto;
+                padding: 64px;
+            /*    margin-top: 32px;
+                margin-left: auto;
+                margin-right: auto;*/
+            }
+            main h3, main a, main img{
+                border: solid green;
+                padding: 16px;
+            }
+            footer{
+                border: 2px solid yellow;
+            }
+            #santander{
+                display: block;
+            }
+            h2{
+                display: inline;
+                width: 5000px;
+            }
+
+        </style>
+        
         <!--
         CSS
 
@@ -64,7 +99,7 @@
                 <li>Internacional</li>
             </ol>
             <h3>Desordenadas</h3>
-            <ul>
+            <ul id="desordenadas">
                 <li>Normal</li>
                 <li>Express</li>
                 <li> 
@@ -80,7 +115,7 @@
             <a href="otra.html">Ir a la otra página</a>
 
             <h2>Imágenes</h2>
-            <img height="171px" src="https://upload.wikimedia.org/wikipedia/commons/7/79/BanderaValle.jpg" alt="Envio Local"/>
+            <img id="santander" height="171px" src="https://upload.wikimedia.org/wikipedia/commons/7/79/BanderaValle.jpg" alt="Envio Local"/>
             <img width="256px" " src="img/flag_of_Colombia.svg.webp" alt="Envío Nacional"/>
 
             <h2>Tablas</h2>
